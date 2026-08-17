@@ -3,7 +3,7 @@ import './Quiz100.css';
 import dogIntroImg from '../assets/opening.png';
 import dogResultsImg from '../assets/result-message.png';
 
-const SHEETS_URL = 'https://script.google.com/macros/s/AKfycbyrgEEb4ouogTLLyHYHlgkjmBTwAnzF9fUoZj83ffovE5vejWnCxM_iIFouYECEt6D_/exec';
+const SHEETS_URL = 'https://script.google.com/macros/s/AKfycbxmxJhqExvfaHsodo-SZUh4eVvjEXZ8tpVcvFQRILbaws6184xjdyk20xVhNlDXTimh/exec';
 
 async function sendToSheets(payload) {
   console.log("Trying to send to URL:", SHEETS_URL);
